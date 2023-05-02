@@ -10,6 +10,7 @@ This is a full collection of red teaming tools which have been cracked by other 
 | :--- | ---: |
 | Cobalt Strike v4.8 | [Download](https://anonfiles.com/M9r2O1o5z0/CobaltStrike48_pwn3rzs_cyberarsenal_7z) |
 | Brute-Ratel | [Download](https://anonfiles.com/pdf5landz8/BruteRatel_zip) |
+| VenomRAT v6.0.1 | [Download](https://anonfiles.com/8dS691ibzc) |
 
 ##### Android
 | Tool | Link |
