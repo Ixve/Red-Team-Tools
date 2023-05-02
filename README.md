@@ -9,8 +9,8 @@ This is a full collection of red teaming tools which have been cracked by other 
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Cobalt Strike v4.8 (READ NOTES) | [Download](https://anonfiles.com/M9r2O1o5z0/CobaltStrike48_pwn3rzs_cyberarsenal_7z) |
-| Cobalt Strike v4.7.2 (READ NOTES) | [Download](https://bayfiles.com/S3k9cdl6za/CobaltStrike472_pwn3rzs_cyberarsenal_7z) |
+| Cobalt Strike v4.8 | [Download](https://anonfiles.com/gcxdW3k7za/CobaltStrike48_pwn3rzs_cyberarsenal_7z) |
+| Cobalt Strike v4.7.2 | [Download](https://bayfiles.com/S3k9cdl6za/CobaltStrike472_pwn3rzs_cyberarsenal_7z) |
 | Brute-Ratel | [Download](https://anonfiles.com/pdf5landz8/BruteRatel_zip) |
 | VenomRAT v6.0.1 | [Download](https://anonfiles.com/8dS691ibzc) |
 
@@ -52,7 +52,6 @@ This is a full collection of red teaming tools which have been cracked by other 
 Most of these tools are most probably obtained from the following websites: `cyberarsenal.org`, `xss.is` and other sites I can't remember.<br><br>If a archive asks for a password, try `pwn3rzs`, `Pwn3rzs`, `xss.is`, `XSS.IS` or `exploit.in`
 
 ###### Cobalt Strike
-The Cobalt Strike v4.8 link is **only the client**, in order to use it, you will need to deploy the teamserver from the v4.7.2, meaning you will have to download **both**.<br>
 Cobalt Strike **requires you** to deploy the teamserver on a Linux install such as Ubuntu, or whatever distro of your choice.<br>In order to run the Cobalt Strike client on your Windows install, you will have to run the following command:<br>`java -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M -jar cobaltstrike-client.jar`.
 
 On Linux, you can simply run `start.sh`.
