@@ -3,6 +3,7 @@ All of these tools *have* been checked for malware using both any.run and a real
 
 # Cracked Red Teaming Tools.
 This is a full collection of red teaming tools which have been cracked by other people, if you need me to find anything, let me know via the issues tab.
+<br><br>
 
 ### C2/RATs
 ##### Windows
