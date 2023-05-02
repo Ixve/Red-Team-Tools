@@ -9,7 +9,7 @@ This is a full collection of red teaming tools which have been cracked by other 
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Cobalt Strike v4.8 | [Download](https://anonfiles.com/gcxdW3k7za/CobaltStrike48_pwn3rzs_cyberarsenal_7z) |
+| Cobalt Strike v4.8 | [Download](https://anonfiles.com/l9l3Q1o3zc/CobaltStrike48_pwn3rzs_cyberarsenal_7z) |
 | Cobalt Strike v4.7.2 | [Download](https://bayfiles.com/S3k9cdl6za/CobaltStrike472_pwn3rzs_cyberarsenal_7z) |
 | Brute-Ratel | [Download](https://anonfiles.com/pdf5landz8/BruteRatel_zip) |
 | VenomRAT v6.0.1 | [Download](https://anonfiles.com/8dS691ibzc) |
