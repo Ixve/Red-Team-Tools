@@ -1,5 +1,5 @@
 # ⚠️ WARNING ⚠️
-All of these tools *have* been checked for malware using both any.run and a real computer for malware. They have passed with no issues whatsoever and are considered clean.<br>***However, please still run these in a virtual machine.***<br><br>Make sure to read notes at the bottom before opening any issue.
+**Most** of these tools *have* been checked for malware using both any.run and a real computer for malware. They have passed with no issues whatsoever and are considered clean.<br>***However, please still run these in a virtual machine.***<br><br>Make sure to read notes at the bottom before opening any issue.
 
 # Cracked Red Teaming Tools.
 This is a full collection of red teaming tools which have been cracked by other people, if you need me to find anything, let me know via the issues tab.
