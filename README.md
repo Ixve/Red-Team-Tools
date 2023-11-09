@@ -6,22 +6,21 @@ This is a full collection of red teaming tools which have been cracked by other 
 <br><br>
 
 ### C2/RATs
-##### Windows
+##### Windows - LINKS WORKING (11/09/2023)
 | Tool | Link |
 | :--- | ---: |
-| Cobalt Strike v4.8 | [Download](https://anonfiles.com/l9l3Q1o3zc/CobaltStrike48_pwn3rzs_cyberarsenal_7z) |
-| Cobalt Strike v4.7.2 | [Download](https://bayfiles.com/S3k9cdl6za/CobaltStrike472_pwn3rzs_cyberarsenal_7z) |
-| Brute-Ratel | [Download](https://anonfiles.com/pdf5landz8/BruteRatel_zip) |
-| VenomRAT v6.0.1 | [Download](https://anonfiles.com/8dS691ibzc) |
+| Cobalt Strike v4.9.1 | [Download](https://files.catbox.moe/dl91uj.7z) |
+| Brute-Ratel v1.2.2 (Scandinavian Defense) | [Download](https://files.catbox.moe/mitgr9.7z) |
+| VenomRAT v6.0.1 | [Download](https://files.catbox.moe/7tom18.7z) |
 
-##### Android
+##### Android - LINKS DEPRECATED
 | Tool | Link |
 | :--- | ---: |
 | CraxsRAT v3 | [Download](https://anonfiles.com/P9g5x8T8yf/CraxsRat-V3_2023_zip) |
 | SpyNote v6.4 | [Download](https://anonfiles.com/N2c4O5ofz5/SpyNote_v6_4_rar) |
 
 <br><br>
-### Exploitation Toolkits/Software
+### Exploitation Toolkits/Software - LINKS DEPRECATED
 ###### Windows
 | Tool | Link |
 | :--- | ---: |
@@ -30,7 +29,7 @@ This is a full collection of red teaming tools which have been cracked by other 
 | JexBot v1.0 (READ NOTES) | [Download](https://www.upload.ee/files/14829113/Jex2022.zip.html) |
 
 <br><br>
-### Web App Security Tools
+### Web App Security Tools - LINKS DEPRECATED
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
