@@ -1,5 +1,4 @@
 # ⚠️ WARNING ⚠️
-~~**Most** of these tools *have* been checked for malware using both any.run and a real computer for malware. They have passed with no issues whatsoever and are considered clean.<br>***However, please still run these in a virtual machine.***~~
 As of 1/27/2024 these tools will not be checked for malware using any sort of environment, you are responsible for any damages done to your computer, run these strictly in a VM environment.<br><br>Make sure to read notes at the bottom before opening any issue.
 
 # Cracked Red Teaming Tools.
@@ -17,7 +16,7 @@ This is a full collection of red teaming tools which have been cracked by other 
 ##### Android - LINKS WORKING (1/27/2024)
 | Tool | Link |
 | :--- | ---: |
-| CraxsRAT v6? (⚠️ **READ NOTES** ⚠️ | [Download](https://pixeldrain.com/u/e3MdYXM7) |
+| CraxsRAT v6? (⚠️ **READ NOTES** ⚠️) | [Download](https://pixeldrain.com/u/e3MdYXM7) |
 | ~~SpyNote v6.4~~ | SpyNote is outdated, wait for SpyNote X cracks to surface or use the tool above. |
 
 <br><br>
