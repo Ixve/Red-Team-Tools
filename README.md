@@ -35,7 +35,7 @@ This is a full collection of red teaming tools which have been cracked by other 
 | :--- | ---: |
 | Invicti Pro v24.1 | [Download](https://pixeldrain.com/u/DxDbY42C) |
 | Burp Suite PRO v2023.6.1 | [Download](https://pixeldrain.com/u/wWaQzSmC) |
-| Acunetix Scanner v24.1 | [Download](https://pixeldrain.com/u/g6YZc6y1) |
+| Acunetix Scanner v24.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://pixeldrain.com/u/g6YZc6y1) |
 | Xray Pro v1.9.10 | [Download](https://pixeldrain.com/u/JMYNm434) |
 | HCL AppScan Standard v10.4.0 | [Download](https://pixeldrain.com/u/3CWfWbHL) |
 
