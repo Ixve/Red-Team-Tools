@@ -1,54 +1,64 @@
 # ⚠️ WARNING ⚠️
-**Most** of these tools *have* been checked for malware using both any.run and a real computer for malware. They have passed with no issues whatsoever and are considered clean.<br>***However, please still run these in a virtual machine.***<br><br>Make sure to read notes at the bottom before opening any issue.
+As of 1/27/2024 these tools will not be checked for malware using any sort of environment, you are responsible for any damages done to your computer, run these strictly in a VM environment.<br><br>Make sure to read notes at the bottom before opening any issue.
 
 # Cracked Red Teaming Tools.
 This is a full collection of red teaming tools which have been cracked by other people, if you need me to find anything, let me know via the issues tab.
 <br><br>
 
-### C2/RATs
-##### Windows - LINKS WORKING (11/09/2023)
-| Tool | Link |
-| :--- | ---: |
-| Cobalt Strike v4.9.1 | [Download](https://files.catbox.moe/dl91uj.7z) |
-| Brute-Ratel v1.2.2 (Scandinavian Defense) | [Download](https://files.catbox.moe/mitgr9.7z) |
-| VenomRAT v6.0.1 | [Download](https://files.catbox.moe/7tom18.7z) |
+### ℹ Sandboxes ℹ
+Sandboxing is useful when it comes to testing whether or not the tools contain malware, and it is *strongly* recommended to do so depending on the tool size.
+| Name | Link | Description |
+| :--- | ---- | ---: |
+| AnyRun | [any.run](https://app.any.run/) | A (mostly) free online interactive VM/sandbox, one of the best out there, requires business e-mail, however limited to 5 minutes per sample including a 16MB sample size (Bypassable up to 100-300MB) for free tier accounts |
+| TRIAGE | [tria.ge](https://tria.ge/) | A completely free online interactive VM/sandbox, less informative compared to AnyRun, however it needs just a singular log in using any email or even GitHub, with up to a 30-minute sample time limit and no sample size limit. |
+| HybridAnalysis | [hybrid-analysis.com](https://hybrid-analysis.com/) | A completely (login-)free online sandbox, unlike the others it is not interactive, has a 100MB file size limit and has a very long queue to get your file analyzed. |
+| JoeSandbox | [joesandbox.com](https://www.joesandbox.com/) | Appears to be a fully interactive online VM/sandbox with a 100MB file size limit, however I have never personally used it. |
+| CUCKOO | [cuckoo.cert.ee](https://cuckoo.cert.ee/) | A non-interactive completely (login-)free online sandbox, appears to have no file size limit and I have rarely used it personally. |
 
-##### Android - LINKS DEPRECATED
-| Tool | Link |
-| :--- | ---: |
-| CraxsRAT v3 | [Download](https://anonfiles.com/P9g5x8T8yf/CraxsRat-V3_2023_zip) |
-| SpyNote v6.4 | [Download](https://anonfiles.com/N2c4O5ofz5/SpyNote_v6_4_rar) |
-
-<br><br>
-### Exploitation Toolkits/Software - LINKS DEPRECATED
-###### Windows
-| Tool | Link |
-| :--- | ---: |
-| Immunity CANVAS v7.27 | [Download](https://anonfiles.com/BbzbKc6ay9/CANVAS_7.27_D2ExploitationPack_v2.55_WhitePhosphorus_1.28_Umbreon_leak_at_breached.to_7z) |
-| Quantum .lnk Exploit Builder (02-10-22) | [Download](https://anonfiles.com/W0D1o5F5y8/QB20221022_rar) |
-| JexBot v1.0 (READ NOTES) | [Download](https://www.upload.ee/files/14829113/Jex2022.zip.html) |
-
-<br><br>
-### Web App Security Tools - LINKS DEPRECATED
+### 🐀 C2/RATs 🐀
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Invicti Pro v23.4 | [Download](https://anonfiles.com/gdEcAfnazc) |
-| Burp Suite PRO v2023.4 | [Download](https://anonfiles.com/5d37Odofz5/BurpSuitePro_2023_4_BurpBounty262_7z) |1
-| Acunetix Scanner v15.5 | [Download](https://gofile.io/d/ccP4gB) |
-| Xray Pro v1.9.4 | [Download]() |
-| HCL AppScan v10.1.0 | [Download](https://bayfiles.com/wb50K9I4y3/AppScan_Standard_10.1.0-cracked_CyberArsenal_pwn3rzs_7z) |
+| Cobalt Strike v4.9.1 | [Download](https://pixeldrain.com/u/wqJbAybe) |
+| Brute-Ratel v1.2.2 (Scandinavian Defense) | [Download](https://pixeldrain.com/u/9bh8UK5N) |
+| VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
+
+##### Android
+| Tool | Link |
+| :--- | ---: |
+| CraxsRAT v6? (⚠️ **READ NOTES** ⚠️) | [Download](https://pixeldrain.com/u/e3MdYXM7) |
+| ~~SpyNote v6.4~~ | SpyNote is outdated, wait for SpyNote X cracks to surface or use the tool above. |
+
+<br><br>
+### 🎭 Exploitation Toolkits/Software 🎭
+###### Windows
+| Tool | Link |
+| :--- | ---: |
+| Immunity CANVAS v7.27 | [Download](https://pixeldrain.com/u/u8SeCmNe) |
+| Quantum .lnk Exploit Builder (02-10-22) | [Download](https://pixeldrain.com/u/9zjpYNQn) |
+| JexBot v1.0 (READ NOTES) | [Download](https://pixeldrain.com/u/Ea8kF2Hh) |
+
+<br><br>
+### 🌐 Web App Security Tools 🌐
+##### Windows
+| Tool | Link |
+| :--- | ---: |
+| Invicti Pro v24.1 | [Download](https://pixeldrain.com/u/DxDbY42C) |
+| Burp Suite PRO v2023.6.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/burpsuite_installer_windows.bat)) | [Download](https://pixeldrain.com/u/wWaQzSmC) |
+| Acunetix Scanner v24.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://pixeldrain.com/u/g6YZc6y1) |
+| Xray Pro v1.9.10 | [Download](https://pixeldrain.com/u/JMYNm434) |
+| HCL AppScan Standard v10.4.0 | [Download](https://pixeldrain.com/u/3CWfWbHL) |
 
 ##### Linux
 | Tool | Link |
 | :--- | ---: |
-| Acunetix Scanner v15.5 | [Download](https://gofile.io/d/jBZIUz) |
-| Xray Pro v1.9.4 | [Download](https://krakenfiles.com/view/kGAvyrPSjy/file.html) |
+| Acunetix Scanner v24.1 | [Download](https://pixeldrain.com/u/29uGRi6d) |
+| Xray Pro v1.9.11 | [Download](https://pixeldrain.com/u/aFiuwBWs) |
 
 <br><br>
-# Notes
+# 📝 Notes 📝
 ###### General
-Most of these tools are most probably obtained from the following websites: `cyberarsenal.org`, `xss.is` and other sites I can't remember.<br><br>If a archive asks for a password, try `pwn3rzs`, `Pwn3rzs`, `xss.is`, `XSS.IS` or `exploit.in`
+Most of these tools are obtained from [CyberArsenal](https://cyberarsenal.org/) and [xss.is](https://xss.is/), credits for the cracks go to them.<br><br>If an archive asks for a password, try `pwn3rzs`, `Pwn3rzs`, `xss.is`, `XSS.IS` or `exploit.in`
 
 ###### Cobalt Strike
 Cobalt Strike **requires you** to deploy the teamserver on a Linux install such as Ubuntu, or whatever distro of your choice.<br>In order to run the Cobalt Strike client on your Windows install, you will have to run the following command:<br>`java -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M -jar cobaltstrike-client.jar`.
@@ -56,7 +66,9 @@ Cobalt Strike **requires you** to deploy the teamserver on a Linux install such 
 On Linux, you can simply run `start.sh`.
 
 ###### Brute-Ratel
-I am not sure whether or not this version of Brute-Ratel works properly, it has not been tested at all, however from the few basic functions *I am assuming it works*. If it does not, someone let me know
+I am not sure whether or not this version of Brute-Ratel works properly, it has not been tested at all, however from the few basic functions *I am assuming it works*. If it does not, someone let me know.
+
+If Brute-Ratel fails to compile the badger.bin into a badger.exe you can use the following to manually compile it: `cat badger.bin | msfvenom -p - -f exe --platform win -a x64 -o badger.exe`
 
 ###### CraxsRat
 This version of CraxsRAT appears to be quite unstable when it comes to connections, if someone wants me to, I can attempt to find a newer version of this rat.
@@ -67,14 +79,17 @@ Immunity CANVAS contains the following: `D2 Exploitation Pack v2.55` & `White Ph
 ###### HCL AppScan
 Upon installing AppScan make sure to **replace the installed DLLs with the cracked ones**.
 
-
 ###### JexBot v1.0
-The following installation instructions were obtained from [CyberArsenal](https://cyberarsenal.org/):<br>
-```-1 Run add_hosts.bat, would ask for admin perms to allow it, if gives Access denied go manually edit C:\Windows\System32\drivers\etc\hosts file and add
+1. Run add_hosts.bat as administrator, if you get an "Access Denied" error, open "C:\Windows\System32\drivers\etc\hosts" and add the following:
+```
 127.0.0.1 jex.tools
 127.0.0.1 www.jex.tools
--2 run Jex_crack.exe, open JEX BOT.exe
--3 using mastercho as username and password for JEX BOT.exe login then enter
--4 Done
+```
+2. Run "Jex_crack.exe" and then open "JEX BOT.exe"
+3. Put `mastercho` as the username and password and press login.
+Note: After logging into the JexBot, you may close "Jex_crack.exe", however you will have to re-open "Jex_crack.exe" every time you want to open the JexBot.
 
-Note: You can Close Jex_crack.exe after success login into "JEX BOT.exe" and need to repeat from number 2 if you wanna use back JEXBOT2022```
+###### Craxs RAT v6?
+I am not sure if this is malware, as it is a remake of crax I've found on the xss.is forums going under "Anonymous V6", and it was also leaked according to OP.<br>Archive password: `suspicious`
+
+Run strictly in a VM environment.
