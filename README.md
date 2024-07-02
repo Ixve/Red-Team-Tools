@@ -19,7 +19,7 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Cobalt Strike v4.9.1 | [Download](https://pixeldrain.com/u/wqJbAybe) |
+| Cobalt Strike v4.9 | [Download](https://ponies.cloud/c2/CobaltStrike%204.9%20Cracked%20uCare@Pwn3rzs.7z) |
 | Brute-Ratel v1.2.2 (Scandinavian Defense) | [Download](https://pixeldrain.com/u/9bh8UK5N) |
 | VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
 
