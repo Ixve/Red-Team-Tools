@@ -19,7 +19,7 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Cobalt Strike v4.9 (PW: `20231004_2218`) | [Download](https://ponies.cloud/c2/CobaltStrike%204.9%20Cracked%20uCare@Pwn3rzs.7z) |
+| Cobalt Strike v4.9 (PW: `20231004_2218`) | [Removed, read why in the notes.] |
 | Brute-Ratel v1.2.2 (Scandinavian Defense) | [Download](https://pixeldrain.com/u/9bh8UK5N) |
 | VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
 
@@ -61,9 +61,8 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 Most of these tools are obtained from [CyberArsenal](https://cyberarsenal.org/) and [xss.is](https://xss.is/), credits for the cracks go to them.<br><br>If an archive asks for a password, try `pwn3rzs`, `Pwn3rzs`, `xss.is`, `XSS.IS` or `exploit.in`
 
 ###### Cobalt Strike
-Cobalt Strike **requires you** to deploy the teamserver on a Linux install such as Ubuntu, or whatever distro of your choice.<br>In order to run the Cobalt Strike client on your Windows install, you will have to run the following command:<br>`java -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC -Xms512M -Xmx1024M -jar cobaltstrike-client.jar`.
-
-On Linux, you can simply run `start.sh`.
+⚠️ CyberArsenal no longer uses the ponies.cloud CDN ⚠️
+The repository is undergoing an update, the files will be re-uploaded to pixeldrain without a password.
 
 ###### Brute-Ratel
 I am not sure whether or not this version of Brute-Ratel works properly, it has not been tested at all, however from the few basic functions *I am assuming it works*. If it does not, someone let me know.
