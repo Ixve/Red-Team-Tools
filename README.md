@@ -28,7 +28,7 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | Tool | Link |
 | :--- | ---: |
 | CraxsRAT v6? (⚠️ **READ NOTES** ⚠️) | [Download](https://pixeldrain.com/u/e3MdYXM7) |
-| SpyNote v7.3.1 (⚠️ **READ NOTES** ⚠️) | [DOWN - Updated link may not come]() |
+| SpyNote v7.3.1 (❓ **READ NOTES** ❓) | [DOWN - Updated link may not come]() |
 
 <br><br>
 ### 🎭 Exploitation Toolkits/Software 🎭
@@ -60,6 +60,7 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | Xray Pro v1.9.11 | [UPDATING]() |
 | Nessus Professional v10.5.4 | [UPDATING]() |
 
+<br><br>
 ### 🕷️ Debugging / Decompilation Tools 🕷️
 | Tool | Link |
 | :--- | ---: |
@@ -101,17 +102,9 @@ The install scripts are untested for the latest versions. If required, open a is
 
 
 ###### SpyNote
-This tool was obtained from `xss.is`
-
-**HIGH CHANCE OF MALWARE**, triage analyses: <br>
-https://tria.ge/250310-xf1qravjv9/behavioral1 <br>
-https://tria.ge/250310-xf1qravjv9/behavioral2 <br>
-https://tria.ge/250310-xf1qravjv9/behavioral3
-
-NOTE: TCP requests -> `iis.nz`, attempts to identify if the tool is ran in a VM (presumably due to the Themida protection). <br>
-**Network requests shouldn't be made at all unless it's the payload contacting the C2** - however it could also be the pre-placed IP address being pinged to make sure it's existent, which I have not checked out.
-
-Archive password: `suspicious`
+I may not be re-uploading SpyNote due to it's **extreme** sketchiness.<br>
+I will *not* be responsible for possible machine infections due to uneducated users running mindlessly.<br>
+If you wish to contribute a safe, updated link, feel free to open an issue.
 
 
 ###### Xray
