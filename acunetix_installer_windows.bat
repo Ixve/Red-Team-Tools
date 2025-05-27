@@ -30,7 +30,7 @@ echo 2607:f8b0:402a:80a::200e  telemetry.invicti.com. >> %windir%\System32\drive
 cls
 echo.&&echo.
 echo ^[2^/7^] Running Acunetix installer, please make sure to install to the default directory.
-start /wait acunetix_24.1.240111130.exe 1>nul2>nul
+start /wait acunetix_25.1.250204093.exe 1>nul2>nul
 
 cls
 echo.&&echo.
@@ -41,9 +41,9 @@ net stop "Acunetix Database" 1>nul2>nul
 cls
 echo.&&echo.
 echo ^[4^/7^] Removing wvsc file in default Acunetix install directory
-del "C:\Program Files (x86)\Acunetix\24.1.240111130\wvsc.exe" 1>nul2>nul
+del "C:\Program Files (x86)\Acunetix\25.1.250204093\wvsc.exe" 1>nul2>nul
 echo Moving patched wvsc file to default Acunetix install directory
-move wvsc.exe "C:\Program Files (x86)\Acunetix\24.1.240111130\" 1>nul2>nul
+move wvsc.exe "C:\Program Files (x86)\Acunetix\25.1.250204093\" 1>nul2>nul
 
 cls
 echo.&&echo.
