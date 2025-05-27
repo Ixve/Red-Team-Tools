@@ -20,8 +20,8 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | Tool | Link |
 | :--- | ---: |
 | Cobalt Strike v4.9.1 | [Download](https://gofile.io/d/U25hhJ) |
-| Brute-Ratel v1.4.5 (Blitzkrieg) | [Download](https://gofile.io/d/ouw6wM) |
-| SpecterInsightC2 | [Download](https://gofile.io/d/TAexo5) |
+| Brute-Ratel v1.4.5 (Blitzkrieg) | [UPDATING]() |
+| SpecterInsightC2 | [UPDATING]() |
 | VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
 
 ##### Android
@@ -38,23 +38,32 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | Immunity CANVAS v7.27 | [Download](https://pixeldrain.com/u/u8SeCmNe) |
 | Quantum .lnk Exploit Builder (02-10-22) | [Download](https://pixeldrain.com/u/9zjpYNQn) |
 | JexBot v1.0 (READ NOTES) | [Download](https://pixeldrain.com/u/Ea8kF2Hh) |
+| MetaSploit Pro | [COMING]() |
 
 <br><br>
 ### 🌐 Web App Security Tools 🌐
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Invicti Pro v25.2.1 | [Download](https://gofile.io/d/2ofjRt) |
-| Burp Suite PRO v2023.6.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/burpsuite_installer_windows.bat)) | [Download](https://pixeldrain.com/u/wWaQzSmC) |
-| Acunetix v25.1.250204093 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://gofile.io/d/f4Dmt5) |
-| Xray Pro v1.9.11 | [Download](https://gofile.io/d/5ZXNzu) |
-| HCL AppScan Standard v10.6.0.28408 | [Download](https://gofile.io/d/eEVTOJ) |
+| Invicti Pro v25.5 | [UPDATING]() |
+| Burp Suite PRO v2023.12.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/burpsuite_installer_windows.bat)) | [UPDATING]() |
+| Acunetix v25.1.250204093 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [UPDATING]() |
+| Xray Pro v1.9.11 | [UPDATING]() |
+| Super-Xray v1.7 | [COMING]()
+| HCL AppScan Standard v10.6.0.28408 | [UPDATING]() |
+| Nessus Professional v10.6.0 | [COMING]() |
 
 ##### Linux
 | Tool | Link |
 | :--- | ---: |
-| Acunetix v25.1.250204093 | [Download](https://gofile.io/d/uLL9z9) |
-| Xray Pro v1.9.11 | [Download](https://gofile.io/d/5VlJJO) |
+| Acunetix v25.1.250204093 | [UPDATING]() |
+| Xray Pro v1.9.11 | [UPDATING]() |
+| Nessus Professional v10.5.4 | [UPDATING]() |
+
+### 🕷️ Debugging / Decompilation Tools 🕷️
+| Tool | Link |
+| :--- | ---: |
+| IDA v9.1_250226 Keygen | [COMING]() |
 
 <br><br>
 # 📝 Notes 📝
@@ -139,13 +148,8 @@ Missing Chrome "fix" (for using xray+rad): <br>
 
 
 ###### To be added:
-- MetaSploit Pro (Windows/Linux)
-- Nessus Pro (Windows/Linux)
-- IDA Pro 7.7
 - de4dot (pre-compiled)
 - AppSpider Full
 - HTTP Debugger Pro
-- Super XRay (A graphical user interface for XRay)
 - Glasswire Elite
-- An updated build of Burp Suite
 - Anything suggested in the issues tab (Nothing, for now)
