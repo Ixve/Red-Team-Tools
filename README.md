@@ -1,5 +1,5 @@
 # ⚠️ WARNING ⚠️
-As of 1/27/2024 these tools will not be checked for malware using any sort of environment, you are responsible for any damages done to your computer, run these strictly in a VM environment.<br><br>Make sure to read notes at the bottom before opening any issue.<br>Files hosted on `files.vc` were replaced with `gofile.io` due to connection-related issues - files may not last long due to takedowns.
+As of 1/27/2024 these tools will not be checked for malware using any sort of environment, you are responsible for any damages done to your computer, run these strictly in a VM environment.<br><br>Make sure to read notes at the bottom before opening any issue.<br>Files will be updated soon - streamlining some installation processes before uploading.
 
 # Cracked Red Teaming Tools.
 This is a full collection of red teaming tools which have been cracked by other people, if you need me to find anything, let me know via the issues tab.
