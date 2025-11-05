@@ -1,5 +1,5 @@
 # ⚠️ WARNING ⚠️
-As of 1/27/2024 these tools will not be checked for malware using any sort of environment, you are responsible for any damages done to your computer, run these strictly in a VM environment.<br><br>Make sure to read notes at the bottom before opening any issue.<br>Files will be updated soon - streamlining some installation processes before uploading.
+As of 1/27/2024 these tools will not be checked for malware using any sort of environment, you are responsible for any damages done to your computer, run these strictly in a VM environment.<br><br>Make sure to read notes at the bottom before opening any issue.<br>Moved from gofile.io to pixeldrain.com (05/11/2025) - enjoy!
 
 # Cracked Red Teaming Tools.
 This is a full collection of red teaming tools which have been cracked by other people, if you need me to find anything, let me know via the issues tab.
@@ -20,8 +20,8 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | Tool | Link |
 | :--- | ---: |
 | [W/L] Cobalt Strike v4.9.1 | [Download](https://gofile.io/d/U25hhJ) |
-| [L] Brute-Ratel v1.4.5 (Blitzkrieg) | [Download](https://gofile.io/d/ShLifR) |
-| [W] SpecterInsightC2 | [Download](https://gofile.io/d/hXLmhm) |
+| [L] Brute-Ratel v1.4.5 (Blitzkrieg) | [Missing File](https://github.com/ixve/red-team-tools/) |
+| [W] SpecterInsightC2 | [Download](https://pixeldrain.com/u/WyYAazhY) |
 | [W] VenomRAT v6.0.1 | [Download](https://pixeldrain.com/u/xVXeWbWb) |
 
 ##### Android
@@ -38,31 +38,31 @@ Sandboxing is useful when it comes to testing whether or not the tools contain m
 | Immunity CANVAS v7.27 | [Download](https://pixeldrain.com/u/u8SeCmNe) |
 | Quantum .lnk Exploit Builder (02-10-22) | [Download](https://pixeldrain.com/u/9zjpYNQn) |
 | JexBot v1.0 (READ NOTES) | [Download](https://pixeldrain.com/u/Ea8kF2Hh) |
-| MetaSploit Pro | [Download](https://gofile.io/d/gQgtpO) |
+| MetaSploit Pro | [Download](https://pixeldrain.com/u/u12Nsuzm) |
 
 ###### Linux
 | Tool | Link |
 | :--- | ---: |
-| MetaSploit Pro | [Download](https://gofile.io/d/kBRGeB) |
+| MetaSploit Pro | [Download](https://pixeldrain.com/u/xS54Uxwa) |
 
 <br><br>
 ### 🌐 Web App Security Tools 🌐
 ##### Windows
 | Tool | Link |
 | :--- | ---: |
-| Invicti Pro v25.5 | [Download](https://gofile.io/d/K7zIaI) |
-| Burp Suite PRO v2023.12.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/burpsuite_installer_windows.bat)) | [Download](https://gofile.io/d/uG8jvZ) |
-| Acunetix v25.1.250204093 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://gofile.io/d/Gd9Xb9) |
-| Xray Pro v1.9.11 | [Download](https://gofile.io/d/MLldz9) |
-| Super-Xray v1.7 | [Download](https://gofile.io/d/BEM4eU)
-| HCL AppScan Standard v10.6.0.28408 | [Download](https://gofile.io/d/jT9CBX) |
-| Nessus Professional v10.6.0 | [Download](https://gofile.io/d/cgEYRS) |
+| Invicti Pro v25.5 | [Download](https://pixeldrain.com/u/qZyTDWMc) |
+| Burp Suite PRO v2023.12.1 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/burpsuite_installer_windows.bat)) | [Download](https://pixeldrain.com/u/rWEidrKW) |
+| Acunetix v25.1.250204093 ([Install Script](https://github.com/Ixve/Red-Team-Tools/blob/main/acunetix_installer_windows.bat)) | [Download](https://pixeldrain.com/u/xTAiTMEg) |
+| Xray Pro v1.9.11 | [Download](https://pixeldrain.com/u/nHdXB2Uk) |
+| Super-Xray v1.7 | [Download](https://pixeldrain.com/u/GWa47ATW)
+| HCL AppScan Standard v10.6.0.28408 | [Download](https://pixeldrain.com/u/dq6kxyik) |
+| Nessus Professional v10.6.0 | [Download](https://pixeldrain.com/u/afUHRhXF) |
 
 ##### Linux
 | Tool | Link |
 | :--- | ---: |
-| Acunetix v25.1.250204093 | [Download](https://gofile.io/d/GBQ5Wd) |
-| Xray Pro v1.9.11 | [Download](https://gofile.io/d/KOFf2E) |
+| Acunetix v25.1.250204093 | [Download](https://pixeldrain.com/u/CaagbhPL) |
+| Xray Pro v1.9.11 | [Download](https://pixeldrain.com/u/4m3c84ht) |
 | Nessus Professional v10.5.4 | [Download (BASH SCRIPT)](https://cyberarsenal.org/zen/nessus_debian_only_not_for_ubuntu_latest.sh) |
 
 <br><br>
