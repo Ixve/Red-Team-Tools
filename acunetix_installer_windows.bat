@@ -15,22 +15,47 @@ echo User is not Administrator, please re-run script as admin. && pause && exit 
 cls
 echo.&&echo.
 echo ^[1^/7^] Adding entries to hosts file
-echo. >> %windir%\System32\drivers\etc\hosts
-echo. >> %windir%\System32\drivers\etc\hosts
-echo 127.0.0.1  erp.acunetix.com >> %windir%\System32\drivers\etc\hosts
-echo 127.0.0.1  erp.acunetix.com. >> %windir%\System32\drivers\etc\hosts
-echo ::1  erp.acunetix.com >> %windir%\System32\drivers\etc\hosts
-echo ::1  erp.acunetix.com. >> %windir%\System32\drivers\etc\hosts
-echo. >> %windir%\System32\drivers\etc\hosts
-echo 192.178.49.174  telemetry.invicti.com >> %windir%\System32\drivers\etc\hosts
-echo 192.178.49.174  telemetry.invicti.com. >> %windir%\System32\drivers\etc\hosts
-echo 2607:f8b0:402a:80a::200e  telemetry.invicti.com >> %windir%\System32\drivers\etc\hosts
-echo 2607:f8b0:402a:80a::200e  telemetry.invicti.com. >> %windir%\System32\drivers\etc\hosts
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  erp.acunetix.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  erp.acunetix.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  erp.acunetix.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  erp.acunetix.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  discovery-service.invicti.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  discovery-service.invicti.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  discovery-service.invicti.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  discovery-service.invicti.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  cdn.pendo.io
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  cdn.pendo.io.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  cdn.pendo.io
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  cdn.pendo.io.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  bxss.me
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  bxss.me.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  bxss.me
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  bxss.me.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  jwtsigner.invicti.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  jwtsigner.invicti.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  jwtsigner.invicti.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  jwtsigner.invicti.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  sca.acunetix.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 127.0.0.1  sca.acunetix.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  sca.acunetix.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo ::1  sca.acunetix.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 192.178.49.174  telemetry.invicti.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 192.178.49.174  telemetry.invicti.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 2607:f8b0:402a:80a::200e  telemetry.invicti.com
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo 2607:f8b0:402a:80a::200e  telemetry.invicti.com.
+>> "%SYSTEMROOT%\System32\drivers\etc\hosts" echo.
 
 cls
 echo.&&echo.
 echo ^[2^/7^] Running Acunetix installer, please make sure to install to the default directory.
-start /wait acunetix_25.1.250204093.exe 1>nul2>nul
+start /wait acunetix_25.8.250820089.exe 1>nul2>nul
 
 cls
 echo.&&echo.
@@ -41,9 +66,9 @@ net stop "Acunetix Database" 1>nul2>nul
 cls
 echo.&&echo.
 echo ^[4^/7^] Removing wvsc file in default Acunetix install directory
-del "C:\Program Files (x86)\Acunetix\25.1.250204093\wvsc.exe" 1>nul2>nul
+del "C:\Program Files (x86)\Acunetix\25.8.250820089\wvsc.exe" 1>nul2>nul
 echo Moving patched wvsc file to default Acunetix install directory
-move wvsc.exe "C:\Program Files (x86)\Acunetix\25.1.250204093\" 1>nul2>nul
+move wvsc.exe "C:\Program Files (x86)\Acunetix\25.8.250820089\" 1>nul2>nul
 
 cls
 echo.&&echo.
